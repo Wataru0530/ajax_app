@@ -6,5 +6,6 @@ class articleController < ApplicationController
     if article.save
       redirect_to index
     end
+  end
 
 end
